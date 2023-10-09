@@ -1,9 +1,9 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.*;
+import org.junit.Test;
 
+import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
 
@@ -18,6 +18,8 @@ public class CashbackHackServiceTest {
         int expected = 100;
 
         assertEquals(expected, actual);
+
+
     }
 
     @Test
